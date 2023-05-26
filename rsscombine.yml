@@ -1,22 +1,20 @@
-title: My Technical RSS Feed
-link: http://wherethisfeedishosted.com/feed
-description: This is a personal collection of technical RSS feeds.
-author_name: John Doe
-author_email: john@example.com
-port: 8080
+---
+title: Planète PostgreSQL
+link: https://planete.postgresql.fr
+description: L'actualité de PostgreSQL de français
+author_name: PostgreSQL.fr
+author_email: contact@postgresql.fr
 server_timeout_seconds: 60
 client_timeout_seconds: 60
-cache_timeout_seconds: 3600
-s3_bucket: rsscombine
-s3_filename: engineering-manager-blogs.xml
-feed_urls: https://raw.githubusercontent.com/chase-seibert/new-york-times-rss-top-100/master/README.md
-feed_exclude_prefixes:
-  - https://raw.githubusercontent.com/
-  - https://github.com/chase-seibert/rsscombine
-  - https://engineering-manager-blogs.herokuapp.com/
-  - https://s3-us-west-2.amazonaws.com/rsscombine/
+feed_limit_per_feed: 5
 feeds:
-  - http://feeds.feedburner.com/TechCrunch
-  - http://feeds.arstechnica.com/arstechnica/technology-lab
-  - http://www.reddit.com/r/technology/.rss
-  - http://rss.slashdot.org/slashdot/slashdotMainatom
+  - http://blog.postgresql.fr/index.php?feed/atom
+  - http://blog.kryskool.org/feeds/postgresql.rss.xml
+  - http://sebastien.lardiere.net/blog/index.php/feed/category/Postgresql/rss2
+  - https://blog.anayrat.info/category/linux/postgres/feed/
+  - http://rjuju.github.io/postgresqlfr/feed.xml
+  - https://www.loxodata.com/post/index.xml
+  - http://pgphil.ovh/maj.xml
+  - http://blog-postgresql.verite.pro/feed.xml
+  - https://blog.raveland.org/tags/pgfr/index.xml
+  - https://blog.atolcd.com/tag/postgresql/feed/
