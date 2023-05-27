@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Planète PostgreSQL</title>
   <id>https://planete.postgresql.fr</id>
-  <updated>2023-05-27T01:45:10Z</updated>
+  <updated>2023-05-27T04:29:24Z</updated>
   <subtitle>L&#39;actualité de PostgreSQL de français</subtitle>
   <link href="https://planete.postgresql.fr"></link>
   <author>
