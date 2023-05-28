@@ -4,6 +4,8 @@ link: https://planete.postgresql.fr/
 description: L'actualité de PostgreSQL de français
 author_name: PostgreSQL.fr
 author_email: contact@postgresql.fr
+use_hostname_when_author_is_missing: true
+default_author_name: inconnu
 server_timeout_seconds: 60
 client_timeout_seconds: 60
 feed_limit_per_feed: 5
