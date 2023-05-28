@@ -53,17 +53,24 @@ func getUrls() []string {
 	return viper.GetStringSlice("feeds")
 }
 
-func fetchUrl(url string, ch chan<- *gofeed.Feed) {
-	log.Printf("Fetching URL: %v\n", url)
+func fetchUrl(feed_url string, ch chan<- *gofeed.Feed) {
+	log.Printf("Fetching URL: %v\n", feed_url)
 	fp := gofeed.NewParser()
 	fp.Client = &http.Client{
 		Timeout: time.Duration(viper.GetInt("client_timeout_seconds")) * time.Second,
 	}
-	feed, err := fp.ParseURL(url)
+	feed, err := fp.ParseURL(feed_url)
 	if err == nil {
+		if viper.GetBool("use_url_when_link_is_missing"){
+			u, err := url.Parse(feed.Link)
+			if err != nil || ! u.IsAbs() {
+				feed.Link=feed_url
+				feed.FeedLink=feed_url
+			}
+		}
 		ch <- feed
 	} else {
-		log.Printf("Error on URL: %v (%v)", url, err)
+		log.Printf("Error on URL: %v (%v)", feed_url, err)
 		ch <- nil
 	}
 }
