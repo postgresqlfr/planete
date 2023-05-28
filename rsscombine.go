@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/url"
 	"sort"
 	"strings"
 	"time"
@@ -111,6 +112,16 @@ func getAuthor(feed *gofeed.Feed) string {
 	}
 	if feed.Items[0].Author != nil {
 		return feed.Items[0].Author.Name
+	}
+	if viper.GetBool("use_hostname_when_author_is_missing") {
+		u, _ := url.Parse(feed.FeedLink)
+		if len(u.Hostname()) > 0 {
+			return u.Hostname()
+		}
+		u, _ = url.Parse(feed.Link)
+		if len(u.Hostname()) > 0 {
+			return u.Hostname()
+		}
 	}
 	log.Printf("Could not determine author for %v", feed.Link)
 	return viper.GetString("default_author_name")
