@@ -25,4 +25,10 @@ feeds:
   - https://blog.capdata.fr/index.php/category/postgresql/feed/
   - https://blog.arthurbazin.com/category/bdd/postgresql/feed
   - https://blog.dalibo.com/feed.planetpgfr.xml
-  - https://www.data-bene.io/fr/blog.xml
+  - https://www.data-bene.io/en/authors/catherine-bouxin/feed.xml
+  - https://www.data-bene.io/en/authors/cedric-villemain/feed.xml
+  - https://www.data-bene.io/en/authors/evan-stanton/feed.xml
+  - https://www.data-bene.io/en/authors/frederic-delacourt/feed.xml
+  - https://www.data-bene.io/en/authors/gregory-tiram/feed.xml
+  - https://www.data-bene.io/en/authors/sarah-conway/feed.xml
+  - https://www.data-bene.io/en/authors/stephane-carton/feed.xml
