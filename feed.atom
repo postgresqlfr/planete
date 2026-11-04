@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Planète PostgreSQL</title>
   <id>https://planete.postgresql.fr/</id>
-  <updated>2026-11-03T19:37:28Z</updated>
+  <updated>2026-11-04T00:41:43Z</updated>
   <subtitle>L&#39;actualité de PostgreSQL de français</subtitle>
   <link href="https://planete.postgresql.fr/"></link>
   <author>
@@ -596,6 +596,36 @@
     <summary type="html"></summary>
     <author>
       <name>Julien Rouhaud</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Mettre en place une streaming replication avec PostgreSQL 10</title>
+    <updated>2018-03-13T06:28:00Z</updated>
+    <id>tag:blog.raveland.tech,2018-03-13:/post/postgresql_sr_fr/</id>
+    <link href="https://blog.raveland.tech/post/postgresql_sr_fr/" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;Dans ce post, je vais vous expliquer comment mettre en place une &lt;em&gt;streaming replication&lt;/em&gt; avec PostgreSQL 10. Par contre, je n&amp;rsquo;expliquerais pas comment installer PostgreSQL donc je suppose que cela est déjà le cas.&lt;/p&gt;</summary>
+    <author>
+      <name>blog.raveland.tech</name>
+    </author>
+  </entry>
+  <entry>
+    <title>OpenBSD / PostgreSQL / Authentification</title>
+    <updated>2017-11-29T11:31:53Z</updated>
+    <id>tag:blog.raveland.tech,2017-11-29:/post/openbsd_pg/</id>
+    <link href="https://blog.raveland.tech/post/openbsd_pg/" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;Si vous êtes un utilisateur d&amp;rsquo;OpenBSD et de PostgreSQL, vous pouvez utiliser l&amp;rsquo;authentification BSD pour vous authentifier sur vos bases.&#xA;Nous allons voir comment faire cela.&lt;/p&gt;</summary>
+    <author>
+      <name>blog.raveland.tech</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Postgresql et la réplication logique</title>
+    <updated>2017-11-27T08:32:06Z</updated>
+    <id>tag:blog.raveland.tech,2017-11-27:/post/postgresql_lr/</id>
+    <link href="https://blog.raveland.tech/post/postgresql_lr/" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;Cet article va tester la nouvelle fonctionnalité disponible depuis PostgreSQL 10.0 : la réplication logique.&lt;/p&gt;&#xA;&lt;p&gt;Pour en savoir plus, l&amp;rsquo;excellente &lt;a href=&#34;https://docs.postgresql.fr/10/logical-replication.html&#34;&gt;documentation de PostgreSQL&lt;/a&gt;&lt;/p&gt;</summary>
+    <author>
+      <name>blog.raveland.tech</name>
     </author>
   </entry>
 </feed>
