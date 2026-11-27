@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Planète PostgreSQL</title>
   <id>https://planete.postgresql.fr/</id>
-  <updated>2026-11-27T00:40:26Z</updated>
+  <updated>2026-11-27T14:00:24Z</updated>
   <subtitle>L&#39;actualité de PostgreSQL de français</subtitle>
   <link href="https://planete.postgresql.fr/"></link>
   <author>
     <name>PostgreSQL.fr</name>
     <email>contact@postgresql.fr</email>
   </author>
+  <entry>
+    <title>Concepts</title>
+    <updated>2026-11-27T12:30:00Z</updated>
+    <id>tag:pgphil.ovh,2026-11-27:/concepts_2026.php</id>
+    <link href="http://pgphil.ovh/concepts_2026.php" rel="alternate"></link>
+    <summary type="html">Mise à jour de mes concepts sur les bases de données, le rôle du DBA avec le Cloud, l&#39;IA et les nouveaux défis</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Hints, advices, indications et autres conseils</title>
+    <updated>2026-04-23T13:00:00Z</updated>
+    <id>tag:pgphil.ovh,2026-04-23:/hint_19_01.php</id>
+    <link href="http://pgphil.ovh/hint_19_01.php" rel="alternate"></link>
+    <summary type="html">Mise à jour de la page sur les &#34;hints&#34; ou &#34;advices&#34; avec PostgreSQL 19...toujours la même méfiance à adopter au sujet de cette fonctionnalité à présent native.</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Le Filtre est Roi</title>
+    <updated>2026-04-14T19:00:00Z</updated>
+    <id>tag:pgphil.ovh,2026-04-14:/filtrer_efficacement_18_01.php</id>
+    <link href="http://pgphil.ovh/filtrer_efficacement_18_01.php" rel="alternate"></link>
+    <summary type="html">Avec le bon critère et l&#39;index qui va bien, plusieurs écritures peuvent être bonnes</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Décomposer pour optimiser</title>
+    <updated>2026-04-14T18:00:00Z</updated>
+    <id>tag:pgphil.ovh,2026-04-14:/decomposer_optimiser_18_01.php</id>
+    <link href="http://pgphil.ovh/decomposer_optimiser_18_01.php" rel="alternate"></link>
+    <summary type="html">Modélisation bancale ? Améliorer la lisibilité et décomposer le problème en visant l&#39;efficacité grâce aux CTE</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Jointures laterales, considerations avancees (indexation, partitionnement)</title>
+    <updated>2026-04-12T16:00:00Z</updated>
+    <id>tag:pgphil.ovh,2026-04-12:/lateral_ddl_17_18_01.php</id>
+    <link href="http://pgphil.ovh/lateral_ddl_17_18_01.php" rel="alternate"></link>
+    <summary type="html">Version de PostgreSQL, contexte et besoins initiaux, evolution...</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Jointures laterales, PostgreSQL 18, un peu d&#39;IA</title>
+    <updated>2026-04-02T15:00:00Z</updated>
+    <id>tag:pgphil.ovh,2026-04-02:/lateral_17_18_01.php</id>
+    <link href="http://pgphil.ovh/lateral_17_18_01.php" rel="alternate"></link>
+    <summary type="html">Mise à jour de la page sur les jointures laterales avec PostgreSQL 18 et un peu d&#39;IA</summary>
+    <author>
+      <name>pgphil.ovh</name>
+    </author>
+  </entry>
   <entry>
     <title>Retour sur le DevFest Toulouse 2026</title>
     <updated>2026-11-23T14:00:00Z</updated>
@@ -302,66 +362,6 @@
     <summary type="html">&lt;p&gt;&lt;img width=&#34;523&#34; height=&#34;342&#34; src=&#34;https://blog.arthurbazin.com/wp-content/uploads/en_tete_bash_psql.png&#34; class=&#34;attachment-full size-full wp-post-image&#34; alt=&#34;&#34; decoding=&#34;async&#34; loading=&#34;lazy&#34; srcset=&#34;https://blog.arthurbazin.com/wp-content/uploads/en_tete_bash_psql.png 523w, https://blog.arthurbazin.com/wp-content/uploads/en_tete_bash_psql-300x196.png 300w&#34; sizes=&#34;auto, (max-width: 523px) 100vw, 523px&#34; /&gt;&lt;/p&gt;&lt;p&gt;J&amp;rsquo;ai récemment eu besoin de lancer diverses requêtes sous PostgreSQL. Facile me direz-vous mais il fallait répondre aux critères suivants : Et bien avec PSQL et un fichier .bat j&amp;rsquo;ai pu mener à bien mon projet. PSQL Exécuter un script contenant une série d&amp;rsquo;instructions SQL est simple avec PSQL : Vous pouvez consulter la documentation [&amp;hellip;]&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://blog.arthurbazin.com/programmation/sql/execution-automatisee-de-scripts-sql&#34; style=&#34;display:inline-block;padding:6px 10px;margin-right:5px;border-radius:5px;background-color:#0090ff;color:#ffffff;text-decoration:none;text-align:center;&#34;&gt;Lire l&#39;article&lt;/a&gt;&lt;a href=&#34;https://blog.arthurbazin.com&#34; style=&#34;display:inline-block;padding:6px 10px;margin-right:5px;border-radius:5px;background-color:#0090ff;color:#ffffff;text-decoration:none;text-align:center;&#34;&gt;blog.arthurbazin.com&lt;/a&gt;&lt;/p&gt;</summary>
     <author>
       <name>Arthur Bazin</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Hints, advices, indications et autres conseils</title>
-    <updated>2026-04-23T13:00:00Z</updated>
-    <id>tag:pgphil.ovh,2026-04-23:/hint_19_01.php</id>
-    <link href="http://pgphil.ovh/hint_19_01.php" rel="alternate"></link>
-    <summary type="html">Mise à jour de la page sur les &#34;hints&#34; ou &#34;advices&#34; avec PostgreSQL 19...toujours la même méfiance à adopter au sujet de cette fonctionnalité à présent native.</summary>
-    <author>
-      <name>pgphil.ovh</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Le Filtre est Roi</title>
-    <updated>2026-04-14T19:00:00Z</updated>
-    <id>tag:pgphil.ovh,2026-04-14:/filtrer_efficacement_18_01.php</id>
-    <link href="http://pgphil.ovh/filtrer_efficacement_18_01.php" rel="alternate"></link>
-    <summary type="html">Avec le bon critère et l&#39;index qui va bien, plusieurs écritures peuvent être bonnes</summary>
-    <author>
-      <name>pgphil.ovh</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Décomposer pour optimiser</title>
-    <updated>2026-04-14T18:00:00Z</updated>
-    <id>tag:pgphil.ovh,2026-04-14:/decomposer_optimiser_18_01.php</id>
-    <link href="http://pgphil.ovh/decomposer_optimiser_18_01.php" rel="alternate"></link>
-    <summary type="html">Modélisation bancale ? Améliorer la lisibilité et décomposer le problème en visant l&#39;efficacité grâce aux CTE</summary>
-    <author>
-      <name>pgphil.ovh</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Jointures laterales, considerations avancees (indexation, partitionnement)</title>
-    <updated>2026-04-12T16:00:00Z</updated>
-    <id>tag:pgphil.ovh,2026-04-12:/lateral_ddl_17_18_01.php</id>
-    <link href="http://pgphil.ovh/lateral_ddl_17_18_01.php" rel="alternate"></link>
-    <summary type="html">Version de PostgreSQL, contexte et besoins initiaux, evolution...</summary>
-    <author>
-      <name>pgphil.ovh</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Jointures laterales, PostgreSQL 18, un peu d&#39;IA</title>
-    <updated>2026-04-02T15:00:00Z</updated>
-    <id>tag:pgphil.ovh,2026-04-02:/lateral_17_18_01.php</id>
-    <link href="http://pgphil.ovh/lateral_17_18_01.php" rel="alternate"></link>
-    <summary type="html">Mise à jour de la page sur les jointures laterales avec PostgreSQL 18 et un peu d&#39;IA</summary>
-    <author>
-      <name>pgphil.ovh</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Index &#34;Skip Scan&#34; avec PostgreSQL 18</title>
-    <updated>2025-04-06T10:30:00Z</updated>
-    <id>tag:pgphil.ovh,2025-04-06:/index_composite_18_01.php</id>
-    <link href="https://pgphil.ovh/index_composite_18_01.php" rel="alternate"></link>
-    <summary type="html">Mise à jour de la page sur les index composites et les requêtes dont la clause de filtrage comprend des colonnes de l&#39;index mais pas la première colonne. PostgreSQL 18 est à présent capable d&#39;effectuer des &#34;skip scan&#34;, de sauter la première colonne et de tirer parti bien plus efficacement de l&#39;index composite b-tree dans certains cas.</summary>
-    <author>
-      <name>pgphil.ovh</name>
     </author>
   </entry>
   <entry>
